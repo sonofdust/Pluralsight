@@ -4,4 +4,4 @@ TO TEST VALID DATA
 \Pluralsight\packageInstaller>node index.js sample\valid.txt
 
 TO TEST INVALID DATA
-\Pluralsight\packageInstaller>node index.js sample\valid.txt
+\Pluralsight\packageInstaller>node index.js sample\invalid.txt
