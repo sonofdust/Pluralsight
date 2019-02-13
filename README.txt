@@ -5,3 +5,6 @@ TO TEST VALID DATA
 
 TO TEST INVALID DATA
 \Pluralsight\packageInstaller>node index.js sample\invalid.txt
+
+/*********************************************************************/
+THE LOGIC TO DETERMINE DEPENDENCIES AND VALID INPUT IS IN serch.js

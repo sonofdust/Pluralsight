@@ -1,14 +1,16 @@
 /***
- * content is build from text file
- * Returns: an string of words.
+ * Input: array of strings
+ * output: String seperated by commas.  Displaying prerequesites dependencies first then the dependents.
  ***/
 module.exports = function search(grid) {
-
   const buildString = input => {
     object = {};
+    /***
+     * This will determine if the dependencies go in a circle.
+     * output: tru or false 
+     ***/
     const validate = obj => {
       const keys = Object.keys(obj).filter(item => !!obj[item]);
-      const set = new Set();
       for (let i = 0; i < keys.length; i++) {
         let key = keys[i].trim();
         let first = key;
