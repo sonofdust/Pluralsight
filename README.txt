@@ -6,7 +6,7 @@ IN packageInstaller DIRECTORY
 \Pluralsight\packageInstaller>node index.js sample\valid.txt
 
 /**********************************************************************/
-TO TEST VALID DATA EXECUTE TYPE:  node index.js sample\invalid.txt
+TO TEST INVALID DATA EXECUTE TYPE:  node index.js sample\invalid.txt
 IN packageInstaller DIRECTORY
 /**********************************************************************/
 \Pluralsight\packageInstaller>node index.js sample\invalid.txt
