@@ -1,13 +1,17 @@
-﻿How to run this program in NodeJS
+﻿MAKE SURE YOU HAVE NODE INSTALLED.
+
+How to run this program in NodeJS
 /**********************************************************************/
-TO TEST VALID DATA EXECUTE TYPE:  node index.js sample\valid.txt
-IN packageInstaller DIRECTORY
+DIRECTORY TO RUN SOURCE CODE:  packageInstaller
+TO TEST VALID DATA ENTER COMMAND:  node index.js sample\valid.txt
+SEE EXAMPLE DIRECTLY BELOW:
 /**********************************************************************/
 \Pluralsight\packageInstaller>node index.js sample\valid.txt
 
 /**********************************************************************/
-TO TEST INVALID DATA EXECUTE TYPE:  node index.js sample\invalid.txt
-IN packageInstaller DIRECTORY
+DIRECTORY TO RUN SOURCE CODE:  packageInstaller
+TO TEST INVALID DATE ENTER COMMAND:  node index.js sample\invalid.txt
+SEE EXAMPLE DIRECTLY BELOW:
 /**********************************************************************/
 \Pluralsight\packageInstaller>node index.js sample\invalid.txt
 
