@@ -7,7 +7,7 @@ module.exports = function search(grid) {
     object = {};
     /***
      * This will determine if the dependencies go in a circle.
-     * output: tru or false 
+     * output: true or false
      ***/
     const validate = obj => {
       const keys = Object.keys(obj).filter(item => !!obj[item]);
