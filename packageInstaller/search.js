@@ -3,12 +3,12 @@
  * output: String seperated by commas.  Displaying prerequesites dependencies first then the dependents.
  ***/
 module.exports = function search(grid) {
+ 
   const buildString = input => {
     object = {};
-    /***
-     * This will determine if the dependencies go in a circle.
-     * output: true or false
-     ***/
+    /******************************************************
+     * Validate: Prevents circular references of dependentcies.
+     *********************************************************/
     const validate = obj => {
       const keys = Object.keys(obj).filter(item => !!obj[item]);
       for (let i = 0; i < keys.length; i++) {
@@ -32,6 +32,10 @@ module.exports = function search(grid) {
       } catch (e) {}
     });
     if (validate(object)) {
+      /************************************************/
+      /*  Separate dependencies add them first to the */
+      /*  string then add dependents.                 */
+      /************************************************/
       let list = Object.keys(object)
         .filter(key => !!!object[key])
         .concat(Object.keys(object).filter(key => !!object[key]))
